@@ -87,6 +87,7 @@ body {
   box-shadow: 1px 1px gray;
 }
 
+/* SECONDO HEADER */
 .headerbottom {
   position: fixed;
   top: 100px;
@@ -108,7 +109,7 @@ body {
   height: 150px;
   font-size: 15px;
   font-weight: 400;
-  padding-top: 15px;
+  padding-top: 10px;
   background: transparent;
 }
 
@@ -116,26 +117,19 @@ body {
   display: inline-block;
   height: auto;
   font-size: 15px;
-  font-weight: 400;
-  padding-top: 9px;
+  font-weight: 200;
   background: transparent;
 }
 
-#filtermenu li{
+#filtermenu li {
   display: inline-block;
-}
-
-#filtermenu li a {
-  display: inline-block;
-  padding: 0 25px;
-  border: 3px solid transparent;
+  padding: 10px 25px 10px;
+  border: 2px solid #999999;
   border-radius: 20px;
   height: auto;
   color: #505050;
-  text-decoration: none;
-  padding-bottom: 10px;
 }
 
-#filtermenu li a:hover {
+#filtermenu li:hover {
   border-color: black;
 }
