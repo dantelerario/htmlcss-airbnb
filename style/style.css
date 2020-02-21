@@ -225,3 +225,16 @@ body {
 .traveldestination:hover .heart {
   display: block;
 }
+
+.country {
+  display: block;
+  position: absolute;
+  vertical-align: middle;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
