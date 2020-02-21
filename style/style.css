@@ -145,8 +145,7 @@ body {
   margin: 180px auto;
   background: transparent;
   padding-top: 25px;
-  padding-left: 5%;
-  padding-right: 5%
+  text-align: center;
 }
 
 .row {
@@ -166,6 +165,8 @@ body {
 
 .main h1 {
   font-size: 20px;
+  text-align: left;
+  padding-left: 200px;
 }
 
 .back {
