@@ -1,0 +1,140 @@
+/* GENERAL SETTINGS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', serif;
+}
+
+/* HEADER */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: white;
+  border-bottom: 0.5px solid #505050;
+}
+
+.divleftelements {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+.divrightelements {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  width: auto;
+  height: 100px;
+  background: transparent;
+}
+
+.logo {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.logo img {
+  display: inline-block;
+  width: 50px;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* NAV MENU HEADER DESTRO */
+#navmenu {
+  display: inline-block;
+  height: 100px;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 15px;
+  background: transparent;
+}
+
+#navmenu li{
+  display: inline-block;
+}
+
+#navmenu li a {
+  display: inline-block;
+  padding: 0 25px;
+  border-bottom: 3px solid transparent;
+  height: 55px;
+  color: #505050;
+  text-decoration: none
+}
+
+#navmenu li a:hover {
+  border-color: #505050;
+}
+
+.searchheader {
+  display: inline-block;
+}
+
+.search {
+  display: inline-block;
+  width: 350px;
+  height: 45px;
+  border-radius: 3px;
+  font-size: 20px;
+  box-shadow: 1px 1px gray;
+}
+
+.headerbottom {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: white;
+  border-bottom: 0.5px solid #505050;
+}
+
+.divfilters {
+  position: absolute
+  display: inline-block;
+  background: red;
+}
+
+.filters {
+  display: inline-block;
+  height: 100px;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 15px;
+  background: transparent;
+}
+
+#filtermenu {
+  display: inline-block;
+  height: 100px;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 15px;
+  background: gray;
+}
+
+#filtermenu li{
+  display: inline-block;
+}
+
+#filtermenu li a {
+  display: inline-block;
+  padding: 0 25px;
+  border-bottom: 3px solid transparent;
+  height: 55px;
+  color: #505050;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+#filtermenu li a:hover {
+  border-color: #505050;
+}
