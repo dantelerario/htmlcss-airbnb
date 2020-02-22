@@ -203,11 +203,37 @@ body {
 
 .text-descr {
   display: block;
-  width: 150px;
+  width: 94%;
+  margin: 0 3%;
+  text-align: justify;
 }
 
 .price {
   display: block;
+  width: 94%;
+  margin: 0 3%;
+  text-align: left;
+}
+
+.divhostcountry {
+  display: block;
+  text-align: left;
+  margin: 0 3%;
+}
+
+.superhost {
+  display: inline-block;
+  text-align: left;
+  border: 1.5px solid #999999;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px;
+}
+
+.countrytext  {
+  display: inline-block;
+  text-align: left;
 }
 
 .back {
