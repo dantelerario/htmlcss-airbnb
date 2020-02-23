@@ -117,15 +117,6 @@ body {
   background: transparent;
 }
 
-.selected {
-  display: inline-block;
-  padding: 10px 15px 10px;
-  border: 2px solid red;
-  border-radius: 20px;
-  height: auto;
-  color: #505050;
-}
-
 #filtermenu {
   display: inline-block;
   padding-left: 55px;
@@ -139,6 +130,15 @@ body {
   display: inline-block;
   padding: 10px 15px 10px;
   border: 2px solid #999999;
+  border-radius: 20px;
+  height: auto;
+  color: #505050;
+}
+
+.headerbottom .selected {
+  display: inline-block;
+  padding: 10px 15px 10px;
+  border: 2px solid black;
   border-radius: 20px;
   height: auto;
   color: #505050;
